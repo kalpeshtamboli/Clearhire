@@ -1,0 +1,65 @@
+<main>
+  <div className="main_container border-2 border-slate-500">
+    <div className="profile_Container md: flex justify-center py-24">
+      <div className="imgDiv mx-auto ">
+        <img src={profileImg} className="img w-40" />
+        <h1 className="flex justify-center text-2xl font-extrabold tracking-normal">
+          Goverthini, 24
+        </h1>
+        <h2 className="flex justify-center text-lg font-medium">
+          Chennai, India
+        </h2>
+      </div>
+    </div>
+
+    <div className="profile_card border-2 border-slate-200 rounded-lg shadow-sm ">
+      <h1 className="text-2xl text-center font-extrabold text-green-700 tracking-wide">
+        Current Company
+      </h1>
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Company
+      </h2>
+      <h3 className="text-center text-lg font-medium">
+        The Madras Branding Company
+      </h3>
+
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Name
+      </h2>
+      <h3 className="text-center text-lg font-medium">Sivasundar N</h3>
+
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Aadhar Id
+      </h2>
+      <h3 className="text-center text-lg font-medium">5674 3958 1232</h3>
+
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Job Role
+      </h2>
+      <h3 className="text-center text-lg font-medium">Graphic Designer</h3>
+
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Date-Of-Joining
+      </h2>
+      <h3 className="text-center text-lg font-medium">01-01-2022</h3>
+
+      <h2 className="text-center text-xl font-bold tracking-wide pt-3">
+        Salary
+      </h2>
+      <h3 className="text-center text-lg font-medium">500,000 PA</h3>
+    </div>
+  </div>
+
+  <label
+    class="block mb-5 text-sm font-medium text-gray-900 dark:text-white"
+    for="file_input"
+  >
+    Upload file
+  </label>
+  <input
+    class="file  block w-1/4  p-2   text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+    id="file_input"
+    type="file"
+  />
+
+</main>
